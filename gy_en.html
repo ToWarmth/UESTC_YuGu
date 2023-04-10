@@ -141,6 +141,10 @@
             padding-top: 30px
         }
 
+        #copyrights {
+            padding-top: 30px
+        }
+
         .styleT {
             font-family: "Times New Roman", Times, serif;
             font-size: 20px;
@@ -234,7 +238,7 @@
         window.onload = function () {
             altRows('table_Projects');
             altRows('table_Patents');
-
+            altRows('table_Copyrights');
         }
     </script>
 </head>
@@ -256,22 +260,13 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#top">Home</a></li>
-                    <li class="scroll-link"><a
-                            href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#aboutme">Biography</a>
-                    </li>
-                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#updates">News</a>
-                    </li>
-                    <li class="scroll-link"><a
-                            href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#publications">Publications</a>
-                    </li>
-                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#awards">Awards</a>
-                    </li>
-                    <li class="scroll-link"><a
-                            href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#projects">Projects</a>
-                    </li>
-                    <li class="scroll-link"><a
-                        href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#patents">Patents</a>
-                </li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#aboutme">Biography</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#updates">News</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#publications">Publications</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#awards">Awards</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#projects">Projects</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#patents">Patents</a></li>
+                    <li class="scroll-link"><a href="https://towarmth.github.io/UESTC_YuGu/gy_en.html#copyrights">Copyrights</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -1163,21 +1158,39 @@
                 <hr>
             </section>
 
+            <section id='copyrights'>
+                <h2>
+                  Copyrights
+                </h2>
+                <div style="text-align:center;width: 100%; overflow:auto;">
+                  <table border="1" class="Info_table" id="table_Copyrights" width="100%" ;>
+                    <tr>
+                      <th>序号</th>
+                      <th>软件名称</th>
+                      <th>著作权人</th>
+                      <th>开发完成日期</th>
+                      <th>首次发表日期</th>
+                      <th>权利取得方式</th>
+                      <th>权利范围</th>
+                      <th>登记号</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>实验用无线信号分析及显示工具软件V1.0</td>
+                      <td>合肥工业大学</td>
+                      <td>2016年10月30日</td>
+                      <td>2016年10月30日</td>
+                      <td>原始取得</td>
+                      <td>全部权利</td>
+                      <td>2017SR235028</td>
+                    </tr>
+                    </table>
+                  </div>
+                  <hr>
+            </section>
+
+            </div>
             <div id="box"></div>
-            <!--         <script type="text/javascript">
-                    function setStorage(){
-                        if(localStorage.counter){
-                            localStorage.counter=Number(localStorage.counter)+1;
-                        }else{
-                            localStorage.counter=1;
-                        }
-                        return localStorage.counter;
-                    }
-                    var counter=setStorage();
-                    var oBox=document.getElementById('box');
-                    oBox.innerHTML="You are the "+counter+"th visitor, thank you!";
-                </script> -->
-            <!-- <a href="https://info.flagcounter.com/4Pbj"><img src="https://s05.flagcounter.com/count2/4Pbj/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
             <div class="site-footer">
                 <div class="container">
                     <div class="row">
@@ -1190,7 +1203,7 @@
                         </div> <!-- /.col-md-4 -->
                         <div class="col-md-4 col-sm-4 col-xs-12">
                             <div class="go-top" style="float:right;text-align: right;">
-                                <a href="#" id="go-top">
+                                <a href="#" id="go-top";>
                                     <i class="fa fa-angle-up"></i>
                                     Back to Top
                                 </a>
